@@ -144,8 +144,8 @@ public class AutoGumaTest {
 		a.setPrecnik(20);
 		a.setSirina(200);
 		a.setVisina(80);
-		String s =  "AutoGuma [markaModel=Aurora, precnik=20, sirina=200, visina=80]";
-		
+		String s = "AutoGuma [markaModel=Aurora, precnik=20, sirina=200, visina=80]";
+
 		assertEquals(s, a.toString());
 	}
 
@@ -158,16 +158,17 @@ public class AutoGumaTest {
 		a.setPrecnik(20);
 		a.setSirina(200);
 		a.setVisina(80);
-		
+
 		AutoGuma a2 = new AutoGuma();
 		a2.setMarkaModel("Aurora");
 		a2.setPrecnik(20);
 		a2.setSirina(200);
 		a2.setVisina(80);
-		
+
 		assertTrue(a.equals(a2));
-		
+
 	}
+
 	/**
 	 * Test method for {@link gume.AutoGuma#equals(java.lang.Object)}.
 	 */
@@ -177,15 +178,15 @@ public class AutoGumaTest {
 		a.setPrecnik(21);
 		a.setSirina(200);
 		a.setVisina(80);
-		
+
 		AutoGuma a2 = new AutoGuma();
 		a2.setMarkaModel("Aurora");
 		a2.setPrecnik(20);
 		a2.setSirina(200);
 		a2.setVisina(80);
-		
+
 		assertFalse(a.equals(a2));
-		
+
 	}
 
 }
