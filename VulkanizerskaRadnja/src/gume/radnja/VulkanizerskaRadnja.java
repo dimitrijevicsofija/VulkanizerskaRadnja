@@ -1,4 +1,4 @@
-package gume_radnja;
+package gume.radnja;
 
 import java.util.LinkedList;
 

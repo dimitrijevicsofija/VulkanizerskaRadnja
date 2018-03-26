@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gume_radnja_test;
+package gume.radnja;
 
 import static org.junit.Assert.*;
 
@@ -12,7 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import gume.AutoGuma;
-import gume_radnja.VulkanizerskaRadnja;
+import gume.radnja.VulkanizerskaRadnja;
 
 /**
  * @author Sofija Dimitrijevic
@@ -47,7 +47,7 @@ public class VulkanizerskaRadnjaTest {
 
 	/**
 	 * Test method for
-	 * {@link gume_radnja.VulkanizerskaRadnja#dodajGumu(gume.AutoGuma)}.
+	 * {@link gume.radnja.VulkanizerskaRadnja#dodajGumu(gume.AutoGuma)}.
 	 */
 	@Test
 	public void testDodajGumu() {
@@ -58,7 +58,7 @@ public class VulkanizerskaRadnjaTest {
 
 	/**
 	 * Test method for
-	 * {@link gume_radnja.VulkanizerskaRadnja#dodajGumu(gume.AutoGuma)}.
+	 * {@link gume.radnja.VulkanizerskaRadnja#dodajGumu(gume.AutoGuma)}.
 	 */
 	@Test (expected = java.lang.NullPointerException.class)
 	public void testDodajGumuNull() {
@@ -67,7 +67,7 @@ public class VulkanizerskaRadnjaTest {
 	}
 	/**
 	 * Test method for
-	 * {@link gume_radnja.VulkanizerskaRadnja#dodajGumu(gume.AutoGuma)}.
+	 * {@link gume.radnja.VulkanizerskaRadnja#dodajGumu(gume.AutoGuma)}.
 	 */
 	@Test (expected = java.lang.RuntimeException.class)
 	public void testDodajGumuDuplikat() {
@@ -82,7 +82,7 @@ public class VulkanizerskaRadnjaTest {
 	}
 	/**
 	 * Test method for
-	 * {@link gume_radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
+	 * {@link gume.radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
 	 */
 	@Test
 	public void testPronadjiGumu() {
@@ -91,7 +91,7 @@ public class VulkanizerskaRadnjaTest {
 	
 	/**
 	 * Test method for
-	 * {@link gume_radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
+	 * {@link gume.radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
 	 */
 	@Test
 	public void testPronadjiGumuNePostoji() {
@@ -101,7 +101,7 @@ public class VulkanizerskaRadnjaTest {
 	}
 	/**
 	 * Test method for
-	 * {@link gume_radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
+	 * {@link gume.radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
 	 */
 	@Test
 	public void testPronadjiGumuPostojiJedna() {
@@ -112,7 +112,7 @@ public class VulkanizerskaRadnjaTest {
 	}
 	/**
 	 * Test method for
-	 * {@link gume_radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
+	 * {@link gume.radnja.VulkanizerskaRadnja#pronadjiGumu(java.lang.String)}.
 	 */
 	@Test
 	public void testPronadjiGumuPostojeDve() {

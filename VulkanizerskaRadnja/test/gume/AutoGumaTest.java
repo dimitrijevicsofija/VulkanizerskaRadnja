@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gume_test;
+package gume;
 
 import static org.junit.Assert.*;
 

@@ -26,7 +26,7 @@ public class AutoGuma {
 	private int visina = 0;
 
 	/**
-	 * 
+	 * Vraca naziv marke i modela auto gume
 	 * @return naziv marke i modela auto gume
 	 */
 	public String getMarkaModel() {
@@ -53,7 +53,7 @@ public class AutoGuma {
 	}
 
 	/**
-	 * 
+	 * Vraca vrednost precnika auto gume
 	 * @return precnik auto gume
 	 */
 
@@ -79,7 +79,7 @@ public class AutoGuma {
 	}
 
 	/**
-	 * 
+	 * Vraca vrednost sirine auto gume
 	 * @return sirina auto gume
 	 */
 
@@ -103,7 +103,7 @@ public class AutoGuma {
 	}
 
 	/**
-	 * 
+	 * Vraca vrednost visine auto gume
 	 * @return visina auto gume
 	 */
 
@@ -128,6 +128,7 @@ public class AutoGuma {
 	}
 
 	/**
+	 * Vraca String koji pokazuje vrednosti svih atributa AutoGume
 	 * @return String koji pokazuje vrednosti svih atributa AutoGume
 	 */
 
